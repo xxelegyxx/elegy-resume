@@ -1,5 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
+import NavMenu from './Components/NavMenu';
 
 test('renders learn react link', () => {
   render(<App />);
