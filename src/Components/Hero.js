@@ -38,57 +38,7 @@ const HeroStyles = styled.div`
   .hero_info {
     margin-top: 2rem;
   }
-  
-  .hero_social,
-  .hero_scrollDown {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    position: absolute;
-    bottom: 20px;
-    width: 50px;
-  }
-  .hero_social {
-    left: 50px;
-  }
-  .hero_scrollDown {
-    right: 50px;
-  }
-  .hero_social_indicator,
-  .hero_scrollDown {
-    width: 50px;
-    p {
-      font-size: 1.6rem;
-      transform: translateY(-70px) rotate(90deg);
-      letter-spacing: 0.7rem;
-      text-transform: uppercase;
-    }
-    img {
-      max-height: 45px;
-      width: 16px;
-      margin: 0 auto;
-      object-fit: contain;
-    }
-  }
-  .hero_scrollDown {
-    img {
-      max-height: 70px;
-    }
-  }
-  .hero_social_text {
-    ul {
-      li {
-        margin-bottom: 1rem;
-        a {
-          display: inline-block;
-          font-size: 1.6rem;
-          transform: rotate(-90deg);
-          letter-spacing: 5px;
-          margin-bottom: 2rem;
-        }
-      }
-    }
-  }
+
   
 
 `;
