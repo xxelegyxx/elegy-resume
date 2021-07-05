@@ -1,17 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 import PText from './PText';
-import AboutImg from '../Assets/Images/AboutImg.jpg'
+import AboutImg from '../Assets/Images/AboutImg.jpg';
+import { button } from 'react-bootstrap/Button';
 
 const AboutStyles = styled.div`
 
-    margin: 5rem;
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    
-    
-    
+margin: 5rem;
+display:flex;
+flex-direction: row;
+align-items: center;
 
 .about_column {
     width: 50%;
@@ -24,7 +22,6 @@ const AboutStyles = styled.div`
     height: 600px;
     margin: 0 auto;
     border: 2px solid var(--gray-1);
-    
 }
 
 .about_text {
@@ -32,7 +29,19 @@ const AboutStyles = styled.div`
     
     
 }
+
+button {
+    border: 2px solid white;
+    border-color: #e7e7e7;
+    border-radius: 10px;
+    background-color: #262626;
+    margin-top: 50px;
+    padding: 8px;
     
+}
+button:hover {
+    background: #363636;
+} 
 `;
 
 export default function AboutSection() {
@@ -50,6 +59,9 @@ export default function AboutSection() {
                         A natural creator, he has been loving his coding journey so far and being able to express himself in a new medium.
                         
                         </PText>
+                        <button className="button" type="button">
+                            <PText>Resume
+                                </PText></button>
                 </div>
             </div>
                 

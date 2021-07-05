@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import PortfolioCard from '../Components/PortfolioCard';
 
 export default function Projects() {
     return (
-        <div>
-            <h1>Projects Page</h1>
-        </div>
+        <PortfolioCard>
+
+        </PortfolioCard>
     )
 }
