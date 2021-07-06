@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import ContactComponent from '../Components/Contact.js';
+import Socials from '../Components/Socials';
 
 export default function Contact() {
     return (
         <div>
-            <h1>Contact PGe</h1>
+            <ContactComponent></ContactComponent>
+            <Socials></Socials>
         </div>
+    
     )
 }

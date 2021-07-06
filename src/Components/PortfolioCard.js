@@ -2,7 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 import PText from './PText';
 import LyricbooImg from '../Assets/Images/lyricboo.png';
-
+import budgetImg from '../Assets/Images/budget.png';
+import weatherImg from '../Assets/Images/weather.png';
+import pwgenImg from '../Assets/Images/pwgen.png';
+import planeticImg from '../Assets/Images/Planetic.png'
 
 const PortfolioStyles = styled.div`
 margin-top: 25vh;
@@ -28,6 +31,7 @@ padding: 50px;
     flex-direction: row;
     justify-content: flex-end;
     margin: 10px;
+    margin-bottom: auto;
 }
 
 .project_text {
@@ -72,6 +76,7 @@ button:hover {
     margin: 10px 0px 10px 10px;
     border: 2px solid var(--gray-1);
     border-radius: 10px;
+    overflow: hidden;
 }
 `;
 
@@ -90,7 +95,7 @@ export default function PortfolioCard({children}) {
                             <h1>Lyricboo</h1>
                         </div>
                         <div className="project_desc">
-                            <PText>Project Desc</PText>
+                            <PText>Lyric search site using Musixmatch and YouTube APIs</PText>
                         </div>
                     </div>
                 </div>
@@ -119,16 +124,16 @@ export default function PortfolioCard({children}) {
             <div className="portfolio_card">
                 <div className="portfolio-left">
                     <div className="portfolio_img">
-                        <img src={LyricbooImg} alt="lyricboo_image"></img>
+                        <img src={budgetImg} alt="budget_image"></img>
                     </div>
                 </div>
                 <div className="portfolio-center">
                     <div className="project_text">
                         <div className="project_title">
-                            <h1>Lyricboo</h1>
+                            <h1>Budget Tracker</h1>
                         </div>
                         <div className="project_desc">
-                            <PText>Project Desc</PText>
+                            <PText>Easy-to-use budget tracker application using mongo and node</PText>
                         </div>
                     </div>
                 </div>
@@ -157,16 +162,16 @@ export default function PortfolioCard({children}) {
             <div className="portfolio_card">
                 <div className="portfolio-left">
                     <div className="portfolio_img">
-                        <img src={LyricbooImg} alt="lyricboo_image"></img>
+                        <img src={pwgenImg} alt="pwgen_image"></img>
                     </div>
                 </div>
                 <div className="portfolio-center">
                     <div className="project_text">
                         <div className="project_title">
-                            <h1>Lyricboo</h1>
+                            <h1>Password Generator</h1>
                         </div>
                         <div className="project_desc">
-                            <PText>Project Desc</PText>
+                            <PText>PW Password generator using simple JS using chosen parameters</PText>
                         </div>
                     </div>
                 </div>
@@ -195,16 +200,16 @@ export default function PortfolioCard({children}) {
             <div className="portfolio_card">
                 <div className="portfolio-left">
                     <div className="portfolio_img">
-                        <img src={LyricbooImg} alt="lyricboo_image"></img>
+                        <img src={weatherImg} alt="weather_image"></img>
                     </div>
                 </div>
                 <div className="portfolio-center">
                     <div className="project_text">
                         <div className="project_title">
-                            <h1>Lyricboo</h1>
+                            <h1>Weather App</h1>
                         </div>
                         <div className="project_desc">
-                            <PText>Project Desc</PText>
+                            <PText>Weather application that gives a 5-day forecast of chosen list of cities</PText>
                         </div>
                     </div>
                 </div>
@@ -233,16 +238,16 @@ export default function PortfolioCard({children}) {
             <div className="portfolio_card">
                 <div className="portfolio-left">
                     <div className="portfolio_img">
-                        <img src={LyricbooImg} alt="lyricboo_image"></img>
+                        <img src={planeticImg} alt="planetic_image"></img>
                     </div>
                 </div>
                 <div className="portfolio-center">
                     <div className="project_text">
                         <div className="project_title">
-                            <h1>Lyricboo</h1>
+                            <h1>Planetic</h1>
                         </div>
                         <div className="project_desc">
-                            <PText>Project Desc</PText>
+                            <PText>Full-stack social media application based on travel and connecting with others globally (wip)</PText>
                         </div>
                     </div>
                 </div>

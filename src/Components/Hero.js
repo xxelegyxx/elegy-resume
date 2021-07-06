@@ -34,6 +34,8 @@ const HeroStyles = styled.div`
     height: 600px;
     margin: 0 auto;
     border: 2px solid var(--gray-1);
+    border-radius: 10px;
+    overflow: hidden;
   }
   .hero_info {
     margin-top: 2rem;
