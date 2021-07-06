@@ -64,8 +64,9 @@ export default function AboutSection() {
                         
                         </PText>
                         <button className="button" type="button">
-                            <PText>Resume
-                                </PText></button>
+                            <a href="https://docs.google.com/document/d/1mMNmSTVLSgk8Wfc1wzQZRWD7ULrIqqrNQimhiw5l6gU/edit?usp=sharing" target="_blank"><PText>Resume
+                                </PText></a>
+                            </button>
                 </div>
             </div>
                 

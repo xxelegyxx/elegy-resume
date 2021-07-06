@@ -104,16 +104,21 @@ export default function PortfolioCard({children}) {
                     <div className="links">
                             <div className="github">
                                 <button href="GITHUBLINK">
+                                <a href="https://github.com/xxelegyxx/lyric-search" target="_blank">
                                     <PText>
                                         Github
-                                    </PText></button>
+                                    </PText></a>
+                                </button>
+                                    
+                                    
                             </div>
                             
                             <div className="deployed">
                             <button href="DEPLOYED">
+                                <a href="https://xxelegyxx.github.io/lyric-search/" target="_blank">
                                     <PText>
                                         Deployed Site
-                                    </PText>
+                                    </PText> </a>
                             </button>
                             </div>
                     </div>
@@ -142,16 +147,19 @@ export default function PortfolioCard({children}) {
                     <div className="links">
                             <div className="github">
                                 <button href="GITHUBLINK">
-                                    <PText>
-                                        Github
-                                    </PText></button>
+                                    <a href="https://github.com/xxelegyxx/budget-tracker" target="_blank">
+                                        <PText>
+                                            Github
+                                        </PText></a>
+                                </button>
                             </div>
                             
                             <div className="deployed">
                             <button href="DEPLOYED">
+                                <a href="https://jwbudget-tracker.herokuapp.com/" target="_blank">
                                     <PText>
                                         Deployed Site
-                                    </PText>
+                                    </PText> </a>
                             </button>
                             </div>
                     </div>
@@ -180,16 +188,19 @@ export default function PortfolioCard({children}) {
                     <div className="links">
                             <div className="github">
                                 <button href="GITHUBLINK">
-                                    <PText>
-                                        Github
-                                    </PText></button>
+                                <a href="https://github.com/xxelegyxx/password-gen" target="_blank">
+                                        <PText>
+                                            Github
+                                        </PText></a>
+                                </button>
                             </div>
                             
                             <div className="deployed">
                             <button href="DEPLOYED">
+                                <a href="https://xxelegyxx.github.io/password-gen/" target="_blank">
                                     <PText>
                                         Deployed Site
-                                    </PText>
+                                    </PText> </a>
                             </button>
                             </div>
                     </div>
@@ -218,16 +229,19 @@ export default function PortfolioCard({children}) {
                     <div className="links">
                             <div className="github">
                                 <button href="GITHUBLINK">
-                                    <PText>
-                                        Github
-                                    </PText></button>
+                                <a href="https://github.com/xxelegyxx/weather-app" target="_blank">
+                                        <PText>
+                                            Github
+                                        </PText></a>
+                                </button>
                             </div>
                             
                             <div className="deployed">
                             <button href="DEPLOYED">
+                                <a href="https://xxelegyxx.github.io/weather-app/" target="_blank">
                                     <PText>
                                         Deployed Site
-                                    </PText>
+                                    </PText> </a>
                             </button>
                             </div>
                     </div>
@@ -256,16 +270,19 @@ export default function PortfolioCard({children}) {
                     <div className="links">
                             <div className="github">
                                 <button href="GITHUBLINK">
-                                    <PText>
-                                        Github
-                                    </PText></button>
+                                    <a href="https://github.com/xxelegyxx/Planetic" target="_blank">
+                                        <PText>
+                                            Github
+                                        </PText></a>
+                                </button>
                             </div>
                             
                             <div className="deployed">
                             <button href="DEPLOYED">
+                                <a href="https://github.com/chronoslou/Planetic" target="_blank"    >
                                     <PText>
                                         Deployed Site
-                                    </PText>
+                                    </PText> </a>
                             </button>
                             </div>
                     </div>
