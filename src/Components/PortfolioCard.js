@@ -8,7 +8,7 @@ import pwgenImg from '../Assets/Images/pwgen.png';
 import planeticImg from '../Assets/Images/Planetic.png'
 
 const PortfolioStyles = styled.div`
-margin-top: 25vh;
+margin-top: 5vh;
 padding: 50px;
 
 .portfolio_card {

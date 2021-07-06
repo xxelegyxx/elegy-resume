@@ -1,12 +1,12 @@
 import React from 'react';
 import AboutSection from '../Components/About';
+import HText from '../Components/HText';
 
 export default function About() {
     return (
         <div>
-            
-            <AboutSection>
-            </AboutSection>
+            <HText>About</HText>
+            <AboutSection/>
         </div>
         
     )

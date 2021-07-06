@@ -28,16 +28,16 @@ a:hover {
 export default function Socials() {
     return (
         <SocialsStyle>
-            <a href="">
+            <a href="https://github.com/xxelegyxx" target="_blank">
                 <FaGithub/>
             </a>
-            <a href="">
+            <a href="https://www.linkedin.com/in/joe-wood-9327421bb" target="_blank">
                 <FaLinkedin/>
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/xx_elegy_xx/" target="_blank">
                 <FaInstagram/>
             </a>
-            <a href="">
+            <a href="https://www.youtube.com/channel/UCBwLYZOcerl5zkrS-1upWKA" target="_blank">
                 <FaYoutube/>
             </a>
         </SocialsStyle>

@@ -19,7 +19,7 @@ align-items: center;
     max-width: 900px;
     width: 100%;
     height: 600px;
-    margin-top: 10vh;
+    margin-top: 5vh;
     border: 2px solid var(--gray-1);
     border-radius: 10px;
     overflow: hidden;

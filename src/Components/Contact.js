@@ -2,12 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 import PText from './PText';
 
+
 const ContactStyle = styled.div`
 
 border: 2px solid white;
 border-radius:10px;
 margin: auto;
-margin-top:50vh;
+margin-top:10vh;
 width: 33%  ;
 height: auto;
 padding 20px;
