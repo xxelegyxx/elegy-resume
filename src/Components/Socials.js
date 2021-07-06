@@ -30,7 +30,7 @@ export default function Socials() {
             <a href="https://github.com/xxelegyxx" target="_blank">
                 <FaGithub/>
             </a>
-            <a href="https://www.linkedin.com/in/joe-wood-9327421bb" target="_blank">
+            <a href="https://www.linkedin.com/in/xx-elegy-xx" target="_blank">
                 <FaLinkedin/>
             </a>
             <a href="https://www.instagram.com/xx_elegy_xx/" target="_blank">
