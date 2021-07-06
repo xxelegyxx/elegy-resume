@@ -3,7 +3,7 @@
 https://elegy-portfolio.herokuapp.com/
 
 ## :newspaper: Description 
-The following files contain the assets necessary to deploy a portfolio page.
+The following files contain the assets necessary to deploy a portfolio page for the 3D artist, songwriter, and programmer Joe Wood AKA Elegy.
 
 ## :computer: Installation 
 This site utilizes react to build a responsive portfolio page. User can run `npm i` to install dependencies. <br>
